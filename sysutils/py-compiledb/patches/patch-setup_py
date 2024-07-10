@@ -1,0 +1,13 @@
+Index: setup.py
+--- setup.py.orig
++++ setup.py
+@@ -37,7 +37,8 @@ setup(
+     install_requires=[
+         'click',
+         'bashlex',
+-        'shutilwhich'
++# Module shutil is already present in latest python interpreters from ports
++#        'shutilwhich'
+     ],
+     extras_require={
+         'dev': [],
