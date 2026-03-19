@@ -1,0 +1,61 @@
+* Artsi0m's OpenBSD porting-efforts
+Sorted by category and alphabetically.
+
+** databases
+*** mysql-workbench
+Abandoned and unfinished port. I found a better alternatives to this
+DBA IDE. Nothing useful here actually.
+
+** devel
+
+*** avr/avra
+Unfinished port, but almost everything present and should work.
+I needed it to build code written with Atmel IDE.
+
+*** bear
+Bear is a tool that generates a compilation database for clang
+tooling.
+
+That port is unfinished and seems to be rather big C++
+program with additional dependencies.
+
+*** grpc
+High-performance remote procedure call (RPC) framework.
+
+Unfinished port, that devel/bear depends on.
+
+*** py-compiledb
+
+Tool for generating Clang's JSON Compilation Database
+
+Almost entirely finished port, that haven't been accepted into ports
+somehow. And I am not the only one working on it. See this [[https://www.mail-archive.com/ports@openbsd.org/msg126695.html][thread]] and
+Mikhail Pchelin port attached.
+
+Definitely recommend, this is much more minimal alternative to
+devel/bear.
+
+** graphics
+
+*** DONE py3-bdfparser
+BDF format bitmap font file parser library in Python
+
+Dependency to one script that was used to convert BDF fonts into
+representation compatible with OpenBSD kernel.
+
+Got accepted into ports:
+[[https://www.mail-archive.com/ports@openbsd.org/msg122588.html][Mailing list thread]].
+
+And maybe this is my first accepted port, not sure.
+
+** sysutils
+*** [[*py-compiledb][py-compiledb]]
+
+** textproc
+*** [[*py-compiledb][py-compiledb]]
+*** py-bashlex
+Python port of the parser used internally by GNU bash
+
+Dependency to [[*py-compiledb][py-compiledb]], got accepted into ports somehow.
+
+[[https://www.mail-archive.com/ports@openbsd.org/msg123240.html][Related thread.]]
