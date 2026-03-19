@@ -49,13 +49,14 @@ Got accepted into ports:
 And maybe this is my first accepted port, not sure.
 
 ** sysutils
-*** [[*py-compiledb][py-compiledb]]
-
+*** py-compiledb
+See devel/py-compiledb.
 ** textproc
-*** [[*py-compiledb][py-compiledb]]
-*** py-bashlex
+*** py-compiledb
+See devel/py-compiledb.
+*** DONE py-bashlex
 Python port of the parser used internally by GNU bash
 
-Dependency to [[*py-compiledb][py-compiledb]], got accepted into ports somehow.
+Dependency to devel/py-compiledb, got accepted into ports somehow.
 
 [[https://www.mail-archive.com/ports@openbsd.org/msg123240.html][Related thread.]]
